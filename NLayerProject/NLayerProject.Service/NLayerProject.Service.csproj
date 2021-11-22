@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NLayerProject.Core\NLayerProject.Core.csproj" />
+    <ProjectReference Include="..\NLayerProject.Data\NLayerProject.Data.csproj" />
+  </ItemGroup>
+
 </Project>
