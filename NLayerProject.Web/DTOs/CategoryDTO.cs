@@ -6,7 +6,7 @@ namespace NLayerProject.Web.DTOs
     {
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage ="{0} can not be empty.")]
         public string Name { get; set; }
     }
 }

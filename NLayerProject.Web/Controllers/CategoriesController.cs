@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using NLayerProject.Core.Models;
 using NLayerProject.Core.Services;
 using NLayerProject.Web.DTOs;
 using System.Collections.Generic;
@@ -22,6 +23,18 @@ namespace NLayerProject.Web.Controllers
         {
             var categories = await _categoryService.GetAllAsync();
             return View(_mapper.Map<IEnumerable<CategoryDTO>>(categories));
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(CategoryDTO categoryDTO)
+        {
+            await _categoryService.AddAsync(_mapper.Map<Category>(categoryDTO));
+            return RedirectToAction("Index");
         }
     }
 }
