@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NLayerProject.Core.Models;
 using NLayerProject.Core.Repositories;
 using NLayerProject.Core.Services;
 using NLayerProject.Core.UnitOfWorks;
@@ -11,6 +12,7 @@ using NLayerProject.Data;
 using NLayerProject.Data.Repositories;
 using NLayerProject.Data.UnitOfWorks;
 using NLayerProject.Service.Services;
+using NLayerProject.Web.Filters;
 
 namespace NLayerProject.Web
 {
@@ -26,6 +28,7 @@ namespace NLayerProject.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped(typeof(GenericNotFoundFilter<Category>));
             services.AddAutoMapper(typeof(Startup));
             services.AddScoped(typeof(IRepository<>), typeof(Repositories<>));
             services.AddScoped(typeof(IService<>), typeof(Service<>));
