@@ -38,7 +38,7 @@ namespace NLayerProject.Web.Controllers
         }
         //update/5 --> Brings first 5th id category then with post method which located below, is 
         //gonna take new categoryDto item, update it and return to the Index. 
-        public async Task<IActionResult> Update(int id)   
+        public async Task<IActionResult> Update(int id)
         {
             var category = await _categoryService.GetByIdAsync(id);
             return View(_mapper.Map<CategoryDTO>(category));
@@ -49,6 +49,14 @@ namespace NLayerProject.Web.Controllers
         {
             _categoryService.Update(_mapper.Map<Category>(categoryDTO));
 
+            return RedirectToAction("Index");
+        }
+
+
+        public IActionResult Delete(int id)
+        {
+            var category = _categoryService.GetByIdAsync(id).Result;
+            _categoryService.Remove(category);
             return RedirectToAction("Index");
         }
     }
