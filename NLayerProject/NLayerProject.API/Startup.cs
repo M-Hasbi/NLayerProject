@@ -2,11 +2,22 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using N_LayerProject.Extantions;
+using N_LayerProject.Filters;
+using NLayerProject.Core.Models;
+using NLayerProject.Core.Repositories;
+using NLayerProject.Core.Services;
+using NLayerProject.Core.UnitOfWorks;
+using NLayerProject.Data;
+using NLayerProject.Data.Repositories;
+using NLayerProject.Data.UnitOfWorks;
+using NLayerProject.Service.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -56,9 +67,9 @@ namespace NLayerProject.API
             {
                 options.SuppressModelStateInvalidFilter = true; // thus asp.net core will not provide us Validations,we will be managing them by saying "true"
             });
-        }
 
-        services.AddControllers();
+
+            services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "NLayerProject.API", Version = "v1" });
@@ -87,5 +98,6 @@ namespace NLayerProject.API
                 endpoints.MapControllers();
             });
         }
+
     }
 }
