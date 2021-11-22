@@ -1,14 +1,13 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using N_LayerProject.DTOs;
-using N_LayerProject.Filters;
+using NLayerProject.Filters;
 using NLayerProject.API.DTOs;
 using NLayerProject.Core.Models;
 using NLayerProject.Core.Services;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace NLayerProject.API
+namespace NLayerProject.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

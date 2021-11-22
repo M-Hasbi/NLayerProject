@@ -1,14 +1,9 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
-using N_LayerProject.DTOs;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace N_LayerProject.Extantions
+namespace NLayerProject.API.Extantions
 {
     public static class UseCustomExcaptionHandler //extantion classes are always must be static
     {

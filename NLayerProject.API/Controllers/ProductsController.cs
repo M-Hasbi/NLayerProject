@@ -1,14 +1,13 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using N_LayerProject.DTOs;
-using N_LayerProject.Filters;
+using NLayerProject.Filters;
 using NLayerProject.Core.Models;
 using NLayerProject.Core.Services;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using NLayerProject.API.DTOs;
 
-
-namespace N_LayerProject.Controllers
+namespace NLayerProject.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -50,7 +49,7 @@ namespace N_LayerProject.Controllers
             return Ok(_mapper.Map<ProductWithCategoryDTO>(product));
         }
 
-        [HttpPost]  
+        [HttpPost]
         public async Task<IActionResult> Save(ProductDTO productDTO)
         {
             var newProduct = await _productService.AddAsync(_mapper.Map<Product>(productDTO));

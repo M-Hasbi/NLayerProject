@@ -1,17 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NLayerProject.Core.Models;
 using NLayerProject.Core.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace NLayerProject.Data.Repositories
 {
     public class CategoryRepository : Repositories<Category>, ICategoryRepository
     {
-        private AppDbContext _appDbContext { get => _context as AppDbContext; } 
+        private AppDbContext _appDbContext { get => _context as AppDbContext; }
 
         public CategoryRepository(AppDbContext context) : base(context)
         {

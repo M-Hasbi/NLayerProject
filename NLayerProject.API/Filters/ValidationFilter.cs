@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
-using N_LayerProject.DTOs;
+using NLayerProject.API.DTOs;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace N_LayerProject.Filters
+namespace NLayerProject.API.Filters
 {
     public class ValidationFilter : ActionFilterAttribute
     {

@@ -1,6 +1,4 @@
-using System;
-
-namespace N_LayerProject.Models
+namespace NLayerProject.API.Models
 {
     public class ErrorViewModel
     {

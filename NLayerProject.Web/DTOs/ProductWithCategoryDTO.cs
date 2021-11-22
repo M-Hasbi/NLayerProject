@@ -1,4 +1,4 @@
-﻿namespace NLayerProject.API.DTOs
+﻿namespace NLayerProject.Web.DTOs
 {
     public class ProductWithCategoryDTO : ProductDTO
     {

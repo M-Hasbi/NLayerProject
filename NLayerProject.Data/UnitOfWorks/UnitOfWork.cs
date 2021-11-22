@@ -1,10 +1,6 @@
 ﻿using NLayerProject.Core.Repositories;
 using NLayerProject.Core.UnitOfWorks;
 using NLayerProject.Data.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace NLayerProject.Data.UnitOfWorks
