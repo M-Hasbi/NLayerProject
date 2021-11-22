@@ -76,3 +76,4 @@ C:\Users\CEM\source\NLayerProject\NLayerProject.Web\obj\Debug\net5.0\ref\NLayerP
 C:\Users\CEM\source\NLayerProject\NLayerProject.Web\obj\Debug\net5.0\NLayerProject.Web.pdb
 C:\Users\CEM\source\NLayerProject\NLayerProject.Web\obj\Debug\net5.0\NLayerProject.Web.genruntimeconfig.cache
 C:\Users\CEM\source\NLayerProject\NLayerProject.Web\obj\Debug\net5.0\Razor\Views\Categories\Create.cshtml.g.cs
+C:\Users\CEM\source\NLayerProject\NLayerProject.Web\obj\Debug\net5.0\Razor\Views\Categories\Update.cshtml.g.cs
