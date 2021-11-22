@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerProject.API", "NLayerProject.API\NLayerProject.API.csproj", "{776FAD79-370D-4E64-8FBE-9EBCEC382C16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayerProject.Core", "NLayerProject.Core\NLayerProject.Core.csproj", "{2EEB312C-F96F-4899-9F9B-C7A75A91529D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{776FAD79-370D-4E64-8FBE-9EBCEC382C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{776FAD79-370D-4E64-8FBE-9EBCEC382C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{776FAD79-370D-4E64-8FBE-9EBCEC382C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EEB312C-F96F-4899-9F9B-C7A75A91529D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EEB312C-F96F-4899-9F9B-C7A75A91529D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EEB312C-F96F-4899-9F9B-C7A75A91529D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EEB312C-F96F-4899-9F9B-C7A75A91529D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
