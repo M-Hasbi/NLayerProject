@@ -10,3 +10,15 @@ C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Core\obj\Debug\net
 C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Core\obj\Debug\net5.0\NLayerProject.Core.dll
 C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Core\obj\Debug\net5.0\ref\NLayerProject.Core.dll
 C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Core\obj\Debug\net5.0\NLayerProject.Core.pdb
+C:\Users\CEM\source\NLayerProject\NLayerProject.Core\bin\Debug\net5.0\NLayerProject.Core.deps.json
+C:\Users\CEM\source\NLayerProject\NLayerProject.Core\bin\Debug\net5.0\NLayerProject.Core.dll
+C:\Users\CEM\source\NLayerProject\NLayerProject.Core\bin\Debug\net5.0\ref\NLayerProject.Core.dll
+C:\Users\CEM\source\NLayerProject\NLayerProject.Core\bin\Debug\net5.0\NLayerProject.Core.pdb
+C:\Users\CEM\source\NLayerProject\NLayerProject.Core\obj\Debug\net5.0\NLayerProject.Core.csproj.AssemblyReference.cache
+C:\Users\CEM\source\NLayerProject\NLayerProject.Core\obj\Debug\net5.0\NLayerProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CEM\source\NLayerProject\NLayerProject.Core\obj\Debug\net5.0\NLayerProject.Core.AssemblyInfoInputs.cache
+C:\Users\CEM\source\NLayerProject\NLayerProject.Core\obj\Debug\net5.0\NLayerProject.Core.AssemblyInfo.cs
+C:\Users\CEM\source\NLayerProject\NLayerProject.Core\obj\Debug\net5.0\NLayerProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\CEM\source\NLayerProject\NLayerProject.Core\obj\Debug\net5.0\NLayerProject.Core.dll
+C:\Users\CEM\source\NLayerProject\NLayerProject.Core\obj\Debug\net5.0\ref\NLayerProject.Core.dll
+C:\Users\CEM\source\NLayerProject\NLayerProject.Core\obj\Debug\net5.0\NLayerProject.Core.pdb

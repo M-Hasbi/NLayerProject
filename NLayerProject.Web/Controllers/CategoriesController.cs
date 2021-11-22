@@ -1,6 +1,9 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using NLayerProject.Core.Services;
+using NLayerProject.Web.DTOs;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace NLayerProject.Web.Controllers
 {
@@ -9,15 +12,16 @@ namespace NLayerProject.Web.Controllers
         private readonly ICategoryService _categoryService;
         private readonly IMapper _mapper;
 
-        public CategoriesController(ICategoryService categoryService,Mapper mapper)
+        public CategoriesController(ICategoryService categoryService, IMapper mapper)
         {
             _categoryService = categoryService;
             _mapper = mapper;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var categories = await _categoryService.GetAllAsync();
+            return View(_mapper.Map<IEnumerable<CategoryDTO>>(categories));
         }
     }
 }
