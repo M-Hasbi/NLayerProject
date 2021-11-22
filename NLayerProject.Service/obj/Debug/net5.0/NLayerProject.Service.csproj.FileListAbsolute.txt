@@ -1,0 +1,17 @@
+C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Service\bin\Debug\net5.0\NLayerProject.Service.deps.json
+C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Service\bin\Debug\net5.0\NLayerProject.Service.dll
+C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Service\bin\Debug\net5.0\ref\NLayerProject.Service.dll
+C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Service\bin\Debug\net5.0\NLayerProject.Service.pdb
+C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Service\bin\Debug\net5.0\NLayerProject.Core.dll
+C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Service\bin\Debug\net5.0\NLayerProject.Data.dll
+C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Service\bin\Debug\net5.0\NLayerProject.Core.pdb
+C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Service\bin\Debug\net5.0\NLayerProject.Data.pdb
+C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Service\obj\Debug\net5.0\NLayerProject.Service.csproj.AssemblyReference.cache
+C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Service\obj\Debug\net5.0\NLayerProject.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Service\obj\Debug\net5.0\NLayerProject.Service.AssemblyInfoInputs.cache
+C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Service\obj\Debug\net5.0\NLayerProject.Service.AssemblyInfo.cs
+C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Service\obj\Debug\net5.0\NLayerProject.Service.csproj.CoreCompileInputs.cache
+C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Service\obj\Debug\net5.0\NLayerProject.Service.csproj.CopyComplete
+C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Service\obj\Debug\net5.0\NLayerProject.Service.dll
+C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Service\obj\Debug\net5.0\ref\NLayerProject.Service.dll
+C:\Users\CEM\source\NLayerProject\NLayerProject\NLayerProject.Service\obj\Debug\net5.0\NLayerProject.Service.pdb
