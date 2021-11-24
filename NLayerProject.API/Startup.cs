@@ -1,15 +1,13 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using N_LayerProject.Extantions;
-using N_LayerProject.Filters;
+using NLayerProject.API.Extantions;
+using NLayerProject.API.Filters;
 using NLayerProject.Core.Models;
 using NLayerProject.Core.Repositories;
 using NLayerProject.Core.Services;
@@ -18,10 +16,6 @@ using NLayerProject.Data;
 using NLayerProject.Data.Repositories;
 using NLayerProject.Data.UnitOfWorks;
 using NLayerProject.Service.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace NLayerProject.API
 {

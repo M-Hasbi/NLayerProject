@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace N_LayerProject.DTOs
+namespace NLayerProject.API.DTOs
 {
     public class ErrorDto
     {

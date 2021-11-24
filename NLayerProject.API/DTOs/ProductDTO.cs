@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace N_LayerProject.DTOs
+namespace NLayerProject.API.DTOs
 {
     public class ProductDTO
     {

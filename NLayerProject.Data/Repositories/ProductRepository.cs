@@ -1,15 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NLayerProject.Core.Models;
 using NLayerProject.Core.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace NLayerProject.Data.Repositories
 {
-   public class ProductRepository : Repositories<Product> , IProductRepository
+    public class ProductRepository : Repositories<Product>, IProductRepository
     {
         private AppDbContext _appDbContext { get => _context as AppDbContext; }
         public ProductRepository(AppDbContext context) : base(context)

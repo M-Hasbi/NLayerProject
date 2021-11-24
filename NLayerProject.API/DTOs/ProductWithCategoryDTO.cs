@@ -1,10 +1,4 @@
-﻿using NLayerProject.API.DTOs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace N_LayerProject.DTOs
+﻿namespace NLayerProject.API.DTOs
 {
     public class ProductWithCategoryDTO : ProductDTO
     {

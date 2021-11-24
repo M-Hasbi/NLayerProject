@@ -1,13 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
-using N_LayerProject.DTOs;
+using NLayerProject.API.DTOs;
 using NLayerProject.Core.Services;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace N_LayerProject.Filters
+namespace NLayerProject.API.Filters
 {
     public class GenericNotFoundFilter<TEntity> : IAsyncActionFilter where TEntity : class
 
