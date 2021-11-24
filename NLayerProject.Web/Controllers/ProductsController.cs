@@ -16,10 +16,21 @@ namespace NLayerProject.Web.Controllers
             _productService = productService;
             _mapper = mapper;
         }
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             var products = await _productService.GetAllAsync();
             return View(_mapper.Map<IEnumerable<ProductDTO>>(products));
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> Create(ProductDTO productDTO)
+        { 
+        
         }
     }
 }

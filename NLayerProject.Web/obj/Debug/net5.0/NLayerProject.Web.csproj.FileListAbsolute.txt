@@ -54,7 +54,6 @@ C:\Users\CEM\source\NLayerProject\NLayerProject.Web\obj\Debug\net5.0\NLayerProje
 C:\Users\CEM\source\NLayerProject\NLayerProject.Web\obj\Debug\net5.0\NLayerProject.Web.RazorAssemblyInfo.cache
 C:\Users\CEM\source\NLayerProject\NLayerProject.Web\obj\Debug\net5.0\NLayerProject.Web.RazorAssemblyInfo.cs
 C:\Users\CEM\source\NLayerProject\NLayerProject.Web\obj\Debug\net5.0\staticwebassets\NLayerProject.Web.StaticWebAssets.Manifest.cache
-C:\Users\CEM\source\NLayerProject\NLayerProject.Web\obj\Debug\net5.0\staticwebassets\NLayerProject.Web.StaticWebAssets.xml
 C:\Users\CEM\source\NLayerProject\NLayerProject.Web\obj\Debug\net5.0\scopedcss\bundle\NLayerProject.Web.styles.css
 C:\Users\CEM\source\NLayerProject\NLayerProject.Web\obj\Debug\net5.0\NLayerProject.Web.TagHelpers.input.cache
 C:\Users\CEM\source\NLayerProject\NLayerProject.Web\obj\Debug\net5.0\NLayerProject.Web.TagHelpers.output.cache
@@ -77,3 +76,5 @@ C:\Users\CEM\source\NLayerProject\NLayerProject.Web\obj\Debug\net5.0\NLayerProje
 C:\Users\CEM\source\NLayerProject\NLayerProject.Web\obj\Debug\net5.0\NLayerProject.Web.genruntimeconfig.cache
 C:\Users\CEM\source\NLayerProject\NLayerProject.Web\obj\Debug\net5.0\Razor\Views\Categories\Create.cshtml.g.cs
 C:\Users\CEM\source\NLayerProject\NLayerProject.Web\obj\Debug\net5.0\Razor\Views\Categories\Update.cshtml.g.cs
+C:\Users\CEM\source\NLayerProject\NLayerProject.Web\bin\Debug\net5.0\NLayerProject.Web.StaticWebAssets.xml
+C:\Users\CEM\source\NLayerProject\NLayerProject.Web\obj\Debug\net5.0\Razor\Views\Products\Index.cshtml.g.cs
