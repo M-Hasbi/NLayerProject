@@ -15,6 +15,8 @@ using NLayerProject.Service.Services;
 using NLayerProject.Web.Api_Services;
 using NLayerProject.Web.Filters;
 using System;
+using System.Net.Http;
+using System.Security.Authentication;
 
 namespace NLayerProject.Web
 {
@@ -35,7 +37,7 @@ namespace NLayerProject.Web
                 {
                     o.BaseAddress = new Uri(Configuration["BaseUrl"]);
                 });
-            
+
             services.AddScoped(typeof(GenericNotFoundFilter<Product>));
             services.AddScoped(typeof(GenericNotFoundFilter<Category>));
             services.AddAutoMapper(typeof(Startup));
