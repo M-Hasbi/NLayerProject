@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using NLayerProject.Core.Models;
 using NLayerProject.Core.Services;
 using NLayerProject.Web.DTOs;
+using NLayerProject.Web.Filters;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -34,6 +35,18 @@ namespace NLayerProject.Web.Controllers
             await _productService.AddAsync(_mapper.Map<Product>(productDTO));
             
 
+            return RedirectToAction("Index");
+        }
+        [ServiceFilter(typeof(GenericNotFoundFilter<Product>))]
+        public async Task<IActionResult> Update(int id)
+        {
+            var product = await _productService.GetByIdAsync(id);
+            return View(_mapper.Map<ProductDTO>(product));
+        }
+        [HttpPost]
+        public IActionResult Update(ProductDTO productDTO)
+        {
+            _productService.Update(_mapper.Map<Product>(productDTO));
             return RedirectToAction("Index");
         }
     }

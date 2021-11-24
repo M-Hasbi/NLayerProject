@@ -39,7 +39,7 @@ namespace NLayerProject.Web.Controllers
         }
 
         [ServiceFilter(typeof(GenericNotFoundFilter<Category>))]
-        //update/5 --> Brings first 5th id category then with post method which located below, is 
+        //update/5 --> Brings 5th number of id category then with post method which located below, is 
         //gonna take new categoryDto item, update it and return to the Index. 
         public async Task<IActionResult> Update(int id)
         {
