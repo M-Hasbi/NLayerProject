@@ -49,5 +49,12 @@ namespace NLayerProject.Web.Controllers
             _productService.Update(_mapper.Map<Product>(productDTO));
             return RedirectToAction("Index");
         }
+        [ServiceFilter(typeof(GenericNotFoundFilter<Product>))]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var product = await _productService.GetByIdAsync(id);
+            _productService.Remove(product);
+            return RedirectToAction("Index");
+        }
     }
 }
