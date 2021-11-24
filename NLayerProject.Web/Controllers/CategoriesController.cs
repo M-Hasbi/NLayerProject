@@ -62,5 +62,6 @@ namespace NLayerProject.Web.Controllers
             _categoryService.Remove(category);
             return RedirectToAction("Index");
         }
+
     }
 }

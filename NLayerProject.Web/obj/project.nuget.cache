@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ta/JPg7x2D4Zd1OgVItWUY4BldlZgkl01bZW4h/8iBZ7bIonQ5D0rI66rdLZAJpSnrmYJYiELjrAXZO0BtiloQ==",
+  "dgSpecHash": "r7VaNpk7Pl40BpjCxX21RRF5LH+C81zsRxSoNA0jiXvO2SNiJ6JP1krwZke1MQa2Y87vtp1I1k4rVmbQsc6jmA==",
   "success": true,
   "projectFilePath": "C:\\Users\\CEM\\source\\NLayerProject\\NLayerProject.Web\\NLayerProject.Web.csproj",
   "expectedPackageFiles": [
@@ -99,7 +99,8 @@
     "C:\\Users\\CEM\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\CEM\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\CEM\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\CEM\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\CEM\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\CEM\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
   ],
   "logs": []
 }
