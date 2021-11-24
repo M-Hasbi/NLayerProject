@@ -12,7 +12,9 @@ using NLayerProject.Data;
 using NLayerProject.Data.Repositories;
 using NLayerProject.Data.UnitOfWorks;
 using NLayerProject.Service.Services;
+using NLayerProject.Web.Api_Services;
 using NLayerProject.Web.Filters;
+using System;
 
 namespace NLayerProject.Web
 {
@@ -28,6 +30,12 @@ namespace NLayerProject.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddHttpClient<CategoryApiService>(
+                o =>
+                {
+                    o.BaseAddress = new Uri(Configuration["BaseUrl"]);
+                });
+            
             services.AddScoped(typeof(GenericNotFoundFilter<Product>));
             services.AddScoped(typeof(GenericNotFoundFilter<Category>));
             services.AddAutoMapper(typeof(Startup));
