@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using NLayerProject.Core.Models;
 using NLayerProject.Core.Services;
 using NLayerProject.Web.DTOs;
 using System.Collections.Generic;
@@ -29,8 +30,11 @@ namespace NLayerProject.Web.Controllers
         }
         [HttpPost]
         public async Task<IActionResult> Create(ProductDTO productDTO)
-        { 
-        
+        {
+            await _productService.AddAsync(_mapper.Map<Product>(productDTO));
+            
+
+            return RedirectToAction("Index");
         }
     }
 }

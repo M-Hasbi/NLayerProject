@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using NLayerProject.Filters;
 using NLayerProject.Core.Models;
 using NLayerProject.Core.Services;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using NLayerProject.API.DTOs;
+using NLayerProject.API.Filters;
 
 namespace NLayerProject.API.Controllers
 {

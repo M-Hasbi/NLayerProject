@@ -14,6 +14,7 @@ namespace NLayerProject.Web.DTOs
         public int Stock { get; set; }
         [Range(1, double.MaxValue, ErrorMessage = "{0} field must be greater than 1")]
         public decimal Price { get; set; }
+        [Required(ErrorMessage ="{0} must be filled")]
         public int CategoryId { get; set; }
     }
 }
