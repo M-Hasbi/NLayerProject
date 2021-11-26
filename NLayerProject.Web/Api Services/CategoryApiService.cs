@@ -68,7 +68,7 @@ namespace NLayerProject.Web.Api_Services
             var stringContent = new StringContent(JsonConvert.SerializeObject(categoryDTO), Encoding.UTF8, "application/json");
 
             var response = await _httpClient.PutAsync("categories", stringContent);
-            
+
             if (response.IsSuccessStatusCode)
             {
                 return true;
@@ -77,7 +77,7 @@ namespace NLayerProject.Web.Api_Services
             {
                 return false;
             }
-        
+
         }
         public async Task<bool> Remove(int id)
         {

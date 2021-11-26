@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using NLayerProject.Core.Models;
-using NLayerProject.Core.Services;
 using NLayerProject.Web.Api_Services;
 using NLayerProject.Web.DTOs;
 using NLayerProject.Web.Filters;
@@ -12,14 +11,14 @@ namespace NLayerProject.Web.Controllers
 {
     public class CategoriesController : Controller
     {
-        private readonly ICategoryService _categoryService;
+
         private readonly CategoryApiService _categoryApiService;
         private readonly IMapper _mapper;
 
-        public CategoriesController(ICategoryService categoryService, IMapper mapper, CategoryApiService categoryApiService)
+        public CategoriesController(IMapper mapper, CategoryApiService categoryApiService)
 
         {
-            _categoryService = categoryService;
+
             _mapper = mapper;
             _categoryApiService = categoryApiService;
         }
@@ -54,7 +53,7 @@ namespace NLayerProject.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> Update(CategoryDTO categoryDTO)
         {
-           await _categoryApiService.Update(categoryDTO);
+            await _categoryApiService.Update(categoryDTO);
 
             return RedirectToAction("Index");
         }
