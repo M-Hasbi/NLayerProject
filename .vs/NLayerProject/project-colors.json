@@ -20,7 +20,12 @@
       "ProjectGuid": "776fad79-370d-4e64-8fbe-9ebcec382c16",
       "DisplayName": "NLayerProject.API",
       "ColorIndex": 3
+    },
+    "b19179d2-4190-4816-8e4b-2c5f3db98b78": {
+      "ProjectGuid": "b19179d2-4190-4816-8e4b-2c5f3db98b78",
+      "DisplayName": "NLayerProject.Data",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }
