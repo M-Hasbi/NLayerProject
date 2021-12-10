@@ -35,6 +35,11 @@ namespace NLayerProject.Web
                 {
                     o.BaseAddress = new Uri(Configuration["BaseUrl"]);
                 });
+            services.AddHttpClient<ProductApiService>(
+                o =>
+                {
+                    o.BaseAddress = new Uri(Configuration["BaseUrl"]);
+                });
 
             services.AddScoped(typeof(GenericNotFoundFilter<Product>));
             services.AddScoped(typeof(GenericNotFoundFilter<Category>));

@@ -25,6 +25,11 @@
       "ProjectGuid": "b19179d2-4190-4816-8e4b-2c5f3db98b78",
       "DisplayName": "NLayerProject.Data",
       "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 5
